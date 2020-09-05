@@ -20,7 +20,7 @@
 }
 
 .info {
-    vertical-align: auto;
+    /* vertical-align: auto; */
     justify-content: right;
 }
 
