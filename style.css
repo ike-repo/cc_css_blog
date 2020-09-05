@@ -5,27 +5,31 @@
 }
 
 .container {
-    /* overflow: auto; */
+    background-color: rgba(172, 203, 242, 0.358);
     margin: 10rem;
     border: 1px solid gray;
+    border-radius: 3px;
 }
 
 .elements {
-    padding: 2rem;
+    margin: 2rem;
     overflow: auto;
 }
 
 #image {
     float: left;
+    border-radius: 3px;
 }
 
 .info {
-    /* vertical-align: auto; */
-    justify-content: right;
+    margin-left: 450px;
+}
+
+.parag {
+    text-align: justify;
 }
 
 h1 {
-    display: inline-flex;
-    vertical-align: middle;
     letter-spacing: 0.1rem;
+    margin: 30px 0px 10px;
 }
